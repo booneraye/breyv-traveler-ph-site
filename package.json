@@ -46,7 +46,7 @@
   "main": "n/a",
   "scripts": {
     "develop": "gatsby develop",
-    build": "contentful-export
+    "build": "contentful-export
       --space-id $SPACE_ID
       --management-token $CONTENTFUL_MANAGEMENT_ACCESS_TOKEN
       --export-dir contentful/
