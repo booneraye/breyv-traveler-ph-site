@@ -8,6 +8,7 @@
     "babel-plugin-styled-components": "^1.10.1",
     "chalk": "^2.4.2",
     "contentful-import": "^7.5.0",
+    "contentful-export": "^6.0.4",
     "gatsby": "^2.9.4",
     "gatsby-image": "^2.1.4",
     "gatsby-plugin-canonical-urls": "^2.0.13",
@@ -45,7 +46,11 @@
   "main": "n/a",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build",
+    build": "contentful-export
+      --space-id $SPACE_ID
+      --management-token $CONTENTFUL_MANAGEMENT_ACCESS_TOKEN
+      --export-dir contentful/
+      --content-file export.json && gatsby build",
     "serve": "npm run build && gatsby serve",
     "test": "npm run lint:css && npm run lint:js && npm run check-pretty",
     "setup": "node ./bin/setup.js",
