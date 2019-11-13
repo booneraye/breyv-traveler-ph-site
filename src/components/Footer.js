@@ -46,7 +46,7 @@ const Footer = () => (
     <List>
       <Item>
         <a
-          href="https://www.contentful.com/"
+          href="https://breyvtravelerph.netlify.com"
           rel="nofollow noopener noreferrer"
           target="_blank"
         >
@@ -59,19 +59,11 @@ const Footer = () => (
       </Item>
       <Item>
         <a
-          href="https://github.com/ryanwiemer/gatsby-starter-gcn"
+          href="https://breyvtravelerph.netlify.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          gatsby-starter-gcn
-        </a>{' '}
-        by{' '}
-        <a
-          href="https://github.com/ryanwiemer"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          @ryanwiemer
+          All rights reserve 2019 | BREYV TRAVELER PH
         </a>
       </Item>
     </List>
