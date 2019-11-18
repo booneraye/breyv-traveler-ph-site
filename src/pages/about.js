@@ -4,24 +4,23 @@ import config from '../utils/siteConfig'
 import Layout from '../components/Layout'
 import Container from '../components/Container'
 import PageTitle from '../components/PageTitle'
-import ContactForm from '../components/ContactForm'
 import SEO from '../components/SEO'
 
 const About = ({ data }) => {
   const postNode = {
-    title: `Contact - ${config.siteTitle}`,
+    title: `About - ${config.siteTitle}`,
   }
 
   return (
     <Layout>
       <Helmet>
-        <title>{`Contact - ${config.siteTitle}`}</title>
+        <title>{`About - ${config.siteTitle}`}</title>
       </Helmet>
       <SEO postNode={postNode} pagePath="contact" customTitle />
 
       <Container>
-        <PageTitle>Contact</PageTitle>
-        <ContactForm />
+        <PageTitle>About</PageTitle>
+        <div>Many people are hindered to travel and explore their own country not because the lack of funds but because the lack of confidence to go outside their own boxes and eagerness to see the world - the bigger world that might have.</div>
       </Container>
     </Layout>
   )
