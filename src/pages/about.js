@@ -18,7 +18,7 @@ const About = ({ data }) => {
         <title>{`About - ${config.siteTitle}`}</title>
       </Helmet>
       <SEO postNode={postNode} pagePath="contact" customTitle />
-      <Hero title={'About Cover'} image={'./images/about-breyv.jpg'} height={'50vh'} />
+      <Hero title={'About Cover'} image={'./about-breyv.jpg'} height={'50vh'} />
       <Container>
         <PageTitle>About</PageTitle>
         <div>Many people are hindered to travel and explore their own country not because the lack of funds but because the lack of confidence to go outside their own boxes and eagerness to see the world - the bigger world that might have.</div>
