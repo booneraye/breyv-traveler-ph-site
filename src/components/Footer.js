@@ -59,8 +59,7 @@ const Footer = () => (
       </Item>
       <Item>
         <a
-          href="https://breyvtravelerph.netlify.com"
-          target="_blank"
+          href="https://breyvtraveler.com"
           rel="noopener noreferrer"
         >
           All rights reserve 2019 | BREYV TRAVELER PH
