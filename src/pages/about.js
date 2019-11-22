@@ -5,8 +5,6 @@ import Layout from '../components/Layout'
 import Container from '../components/Container'
 import PageTitle from '../components/PageTitle'
 import SEO from '../components/SEO'
-import Hero from '../components/Hero'
-import aboutImage from './about-breyv.jpg'
 
 const About = ({ data }) => {
   const postNode = {
@@ -19,7 +17,6 @@ const About = ({ data }) => {
         <title>{`About - ${config.siteTitle}`}</title>
       </Helmet>
       <SEO postNode={postNode} pagePath="contact" customTitle />
-      <Hero title={'About Cover'} image={aboutImage} height={'50vh'} />
       <Container>
         <PageTitle>About</PageTitle>
         <div>Many people are hindered to travel and explore their own country not because the lack of funds but because the lack of confidence to go outside their own boxes and eagerness to see the world - the bigger world that might have.</div>
