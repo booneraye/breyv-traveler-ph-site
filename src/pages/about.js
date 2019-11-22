@@ -6,7 +6,7 @@ import Container from '../components/Container'
 import PageTitle from '../components/PageTitle'
 import SEO from '../components/SEO'
 import Hero from '../components/Hero'
-import aboutImage '../about-breyv.jpg'
+import aboutImage from './about-breyv.jpg'
 
 const About = ({ data }) => {
   const postNode = {
