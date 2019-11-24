@@ -56,7 +56,7 @@ const Menu = () => {
           </li>
           <li>
             <Link to="/book-now/" activeStyle={activeLinkStyle}>
-              Book Now!
+              Tickets!
             </Link>
           </li>
           <li>
