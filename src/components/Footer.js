@@ -62,7 +62,7 @@ const Footer = () => (
           href="https://breyvtraveler.com"
           rel="noopener noreferrer"
         >
-          All rights reserve 2019 | BREYV TRAVELER PH
+          All rights reserve 2019 | BRAVE TRAVELER PH
         </a>
       </Item>
     </List>
