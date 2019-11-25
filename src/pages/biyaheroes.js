@@ -25,9 +25,9 @@ const Biyaheroes = ({ data }) => {
         <div id="biyaheroes-widget-container">
 	<div id="biyaheroes-widget-brave-traveler-ph-be70440e47bf3c0fda285ed94e9508e17b4857f53608d36fd64f88ac32bb376d78128207cc4b443b9b6d763f2afd8705">
 	</div>
+</div>
 	<Helmet>
 		<script type="application/javascript" src="https://biz.biyaheroes.com/widget/brave-traveler-ph/be70440e47bf3c0fda285ed94e9508e17b4857f53608d36fd64f88ac32bb376d78128207cc4b443b9b6d763f2afd8705"></script>
-</div>
 	</Helmet>
       </Container>	
     </Layout>
