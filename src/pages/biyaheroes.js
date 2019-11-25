@@ -18,15 +18,18 @@ const Biyaheroes = ({ data }) => {
         <title>{`Biyaheroes - ${config.siteTitle}`}</title>
       </Helmet>
       <SEO postNode={postNode} pagePath="biyaheroes" customTitle />
-
+	
+	<Helmet>
       <Container>
         <PageTitle>Biyaheroes</PageTitle>
+	
         <div id="biyaheroes-widget-container">
 	        <div id="biyaheroes-widget-brave-traveler-ph-566db44c6bb873ae1cd8662e67708577e916940fa1e37aff4965b1a33299f688eda1b27133d1c338ddfe2c9c20bacd2f">
-	        </div><Helmet>
-	        <script src='https://dev-biz.biyaheroes.com/widget/brave-traveler-ph/566db44c6bb873ae1cd8662e67708577e916940fa1e37aff4965b1a33299f688eda1b27133d1c338ddfe2c9c20bacd2f'></script></Helmet>
+	        </div>
+	        <script src='https://dev-biz.biyaheroes.com/widget/brave-traveler-ph/566db44c6bb873ae1cd8662e67708577e916940fa1e37aff4965b1a33299f688eda1b27133d1c338ddfe2c9c20bacd2f'></script>
         </div>
       </Container>
+	</Helmet>
     </Layout>
   )
 }
