@@ -29,8 +29,9 @@ const Biyaheroes = ({ data }) => {
 	
       		<Container>
         		<PageTitle>Biyaheroes</PageTitle>
-			
+			<Helmet>
         		<div dangerouslySetInnerHTML={{ __html: booking }}/>
+</Helmet>
       		</Container>
     	</Layout>
   )
