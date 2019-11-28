@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
 import Helmet from 'react-helmet'
 import config from '../utils/siteConfig'
 import Layout from '../components/Layout'
@@ -6,7 +7,6 @@ import Container from '../components/Container'
 import PageTitle from '../components/PageTitle'
 import ContactForm from '../components/ContactForm'
 import SEO from '../components/SEO'
-import useScript from 'hooks/useScript';
 
 
 
@@ -15,7 +15,10 @@ const Biyaheroes = ({ data }) => {
     title: `Biyaheroes - ${config.siteTitle}`,
   }
   const BookingService = () => {
-  	useScript('https://biz.biyaheroes.com/widget/brave-traveler-ph/be70440e47bf3c0fda285ed94e9508e17b4857f53608d36fd64f88ac32bb376d78128207cc4b443b9b6d763f2afd8705');
+	  const script = document.createElement("script");
+    	  script.async = true;
+    	script.src = "https://biz.biyaheroes.com/widget/brave-traveler-ph/be70440e47bf3c0fda285ed94e9508e17b4857f53608d36fd64f88ac32bb376d78128207cc4b443b9b6d763f2afd8705";
+    	this.div.appendChild(script);
   }
 	
   const booking = `<div style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); width: 100%; height: 600px">
