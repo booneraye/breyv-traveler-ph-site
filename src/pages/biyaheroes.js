@@ -20,16 +20,7 @@ const Biyaheroes = ({ data }) => {
 				<div id="biyaheroes-widget-brave-traveler-ph-be70440e47bf3c0fda285ed94e9508e17b4857f53608d36fd64f88ac32bb376d78128207cc4b443b9b6d763f2afd8705">
 				</div>
 				<script type="application/javascript" src="https://biz.biyaheroes.com/widget/brave-traveler-ph/be70440e47bf3c0fda285ed94e9508e17b4857f53608d36fd64f88ac32bb376d78128207cc4b443b9b6d763f2afd8705"></script>
-			</div> </div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-2901559959048252",
-    enable_page_level_ads: true
-  });
-</script>
-
-`;
+			</div> </div>`;
 
   return (
 	  <Layout>
