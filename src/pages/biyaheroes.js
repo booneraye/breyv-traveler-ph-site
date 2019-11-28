@@ -6,6 +6,7 @@ import Container from '../components/Container'
 import PageTitle from '../components/PageTitle'
 import ContactForm from '../components/ContactForm'
 import SEO from '../components/SEO'
+import useScript from 'hooks/useScript';
 
 const Biyaheroes = ({ data }) => {
   const postNode = {
@@ -17,6 +18,9 @@ const Biyaheroes = ({ data }) => {
 				<div id="biyaheroes-widget-brave-traveler-ph-be70440e47bf3c0fda285ed94e9508e17b4857f53608d36fd64f88ac32bb376d78128207cc4b443b9b6d763f2afd8705">
 				</div>	
 			</div> </div>`;
+  const BookingService = {
+  	useScript('https://biz.biyaheroes.com/widget/brave-traveler-ph/be70440e47bf3c0fda285ed94e9508e17b4857f53608d36fd64f88ac32bb376d78128207cc4b443b9b6d763f2afd8705');
+  }
 
   return (
 	  <Layout>
@@ -28,10 +32,8 @@ const Biyaheroes = ({ data }) => {
       		<Container>
         		<PageTitle>Biyaheroes</PageTitle>
         		<div dangerouslySetInnerHTML={{ __html: booking }}/>
+			<BookingService />
       		</Container>
-		<Helmet>
-			<script src="https://biz.biyaheroes.com/widget/brave-traveler-ph/be70440e47bf3c0fda285ed94e9508e17b4857f53608d36fd64f88ac32bb376d78128207cc4b443b9b6d763f2afd8705"></script>
-		</Helmet>
     	</Layout>
   )
 }
