@@ -29,8 +29,7 @@ const Biyaheroes = ({ data }) => {
 	
       		<Container>
         		<PageTitle>Biyaheroes</PageTitle>
-        		<div dangerouslySetInnerHTML={{ __html: booking }}/>
-			<div dangerouslySetInnerHTML={{ __html: scriptSrc }}/>
+        		<div dangerouslySetInnerHTML={{ __html: booking + scriptSrc }}/>
       		</Container>
     	</Layout>
   )
