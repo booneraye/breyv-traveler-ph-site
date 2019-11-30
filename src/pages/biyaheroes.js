@@ -7,7 +7,6 @@ import Container from '../components/Container'
 import PageTitle from '../components/PageTitle'
 import ContactForm from '../components/ContactForm'
 import SEO from '../components/SEO'
-import BookingForm from '../components/BookingForm'
 
 
 const Biyaheroes = ({ data }) => {
@@ -33,7 +32,6 @@ const Biyaheroes = ({ data }) => {
         		<PageTitle>Biyaheroes</PageTitle>
         		<div dangerouslySetInnerHTML={{ __html: booking }}/>
       		</Container>
-		<BookingForm /> 
     	</Layout>
   )
 }
