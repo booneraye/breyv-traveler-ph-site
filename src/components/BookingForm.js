@@ -11,7 +11,7 @@ const BookingForm = () => {
 </div>` }};
   
   return (
-    <div dangerouslySetInnerHTML={{__html: booking()}} />
+    <div dangerouslySetInnerHTML={{__html: bookingForm()}} />
   )
 }
 
