@@ -3,8 +3,7 @@ import React from 'react'
 const GoogleAds = () => {
   
   function googleAds(){ 
-    return `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-       <!-- first ads -->
+    return `<!-- first ads -->
          <ins class="adsbygoogle"
           style="display:block"
           data-ad-client="ca-pub-2901559959048252"
