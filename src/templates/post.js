@@ -44,7 +44,6 @@ const PostTemplate = ({ data, pageContext }) => {
         />
         <GoogleAdsFeeds />
         <PageBody body={body} />
-        <GoogleAdsFeeds />
       </Container>
 
       <PostLinks previous={previous} next={next} />
