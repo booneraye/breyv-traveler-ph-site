@@ -25,9 +25,8 @@ const Biyaheroes = ({ data }) => {
 
       		<Container>
         		<PageTitle>Biyaheroes</PageTitle>
+        		<BookingForm/>
                 <div dangerouslySetInnerHTML={{__html: bookingService }} />
-                <BookingForm/>
-
       		</Container>
     	</Layout>
   )
