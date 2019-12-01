@@ -8,7 +8,7 @@ import Container from '../components/Container'
 import Pagination from '../components/Pagination'
 import SEO from '../components/SEO'
 import config from '../utils/siteConfig'
-import GoogleAdsDisplay from '../components/GoogleAdsDisplay'
+import GoogleAdsFeeds from '../components/GoogleAdsFeeds'
 
 const Index = ({ data, pageContext }) => {
   const posts = data.allContentfulPost.edges
