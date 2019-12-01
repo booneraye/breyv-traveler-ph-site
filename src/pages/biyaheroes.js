@@ -11,9 +11,10 @@ import BookingForm from '../components/BookingForm'
 
 
 const Biyaheroes = ({ data }) => {
-  const postNode = {
-    title: `Biyaheroes - ${config.siteTitle}`,
-  }
+    const postNode = {
+        title: `Biyaheroes - ${config.siteTitle}`,
+    }
+    const bookingService = `<script type="application/javascript" src="https://biz.biyaheroes.com/widget/brave-traveler-ph-website/0c246ad427714b5190e9b9651b1ec51cbbe656078c47a39e5159a788ecbf3dced973716cba12a16f95900c6694e87c77"></script>`
 
   return (
 	  <Layout>
@@ -25,6 +26,7 @@ const Biyaheroes = ({ data }) => {
       		<Container>
         		<PageTitle>Biyaheroes</PageTitle>
         		<BookingForm/>
+                <div dangerouslySetInnerHTML={{__html: bookingService }} />
       		</Container>
     	</Layout>
   )
