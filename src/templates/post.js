@@ -41,8 +41,9 @@ const PostTemplate = ({ data, pageContext }) => {
           date={publishDate}
           timeToRead={body.childMarkdownRemark.timeToRead}
         />
-        <PageBody body={body} />
         <GoogleAds/>
+        <PageBody body={body} />
+        
       </Container>
       
       <PostLinks previous={previous} next={next} />
