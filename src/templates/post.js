@@ -11,7 +11,6 @@ import PostLinks from '../components/PostLinks'
 import PostDetails from '../components/PostDetails'
 import SEO from '../components/SEO'
 import GoogleAdsDisplay from '../components/GoogleAdsDisplay'
-import theme from '../styles/theme.js'
 
 const PostTemplate = ({ data, pageContext }) => {
 
@@ -43,7 +42,7 @@ const PostTemplate = ({ data, pageContext }) => {
           date={publishDate}
           timeToRead={body.childMarkdownRemark.timeToRead}
         />
-        <div style={theme.sizes}>
+        <div style={{height: '30vh', width: '100%'}}>
             <GoogleAdsDisplay />
         </div>
         <PageBody body={body} />
