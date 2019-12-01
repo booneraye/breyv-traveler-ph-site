@@ -1,21 +1,22 @@
-import React from 'react'
+import React, { Component } from 'react';
 
-const GoogleAds = () => {
+class GoogleAds extends Component {
 
-  const googleAds = `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <ins class="adsbygoogle"
-            style="display:block"
-            data-ad-format="fluid"
-            data-ad-layout-key="-6h+dd+4d-5u+3c"
-            data-ad-client="ca-pub-2901559959048252"
-            data-ad-slot="8492202498"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>` ;
+    componentDidMount() {
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+    }
 
-  return (
-        <div dangerouslySetInnerHTML={{__html: googleAds }} />
-  )
+    render() {
+        return (
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-format="fluid"
+                data-ad-layout-key="-6h+dd+4d-5u+3c"
+                data-ad-client="ca-pub-2901559959048252"
+                data-ad-slot={this.props.slot}>
+            </ins>
+        );
+    }
 }
 
-export default GoogleAds
+export default GoogleAds;

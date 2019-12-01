@@ -41,7 +41,11 @@ const PostTemplate = ({ data, pageContext }) => {
           date={publishDate}
           timeToRead={body.childMarkdownRemark.timeToRead}
         />
-        <GoogleAds />
+
+        <div className="ad-class">
+            {/* add your slot id  */}
+            <GoogleAds slot="8492202498" />
+        </div>
         <PageBody body={body} />
 
       </Container>
