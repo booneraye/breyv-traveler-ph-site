@@ -22,6 +22,7 @@ const PageTemplate = ({ data }) => {
       <Container>
         <PageTitle>{title}</PageTitle>
         <PageBody body={body} />
+        <GoogleAdsDisplay />
       </Container>
     </Layout>
   )
