@@ -40,7 +40,7 @@ const Index = ({ data, pageContext }) => {
 
           </CardList>
         )}
-        
+            <GoogleAdsFeeds/>
       </Container>
       <Pagination context={pageContext} />
     </Layout>
