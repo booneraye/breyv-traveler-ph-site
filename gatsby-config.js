@@ -169,5 +169,6 @@ module.exports = {
         publisherId: `ca-pub-2901559959048252`
       },
     },
+    'gatsby-transformer-remark',
   ],
 }
