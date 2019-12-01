@@ -37,10 +37,12 @@ const Index = ({ data, pageContext }) => {
             {posts.map(({ node: post }) => (
               <Card key={post.id} {...post} />
             ))}
-
+            <Card>
+                <GoogleAdsFeeds/>
+            </Card>
           </CardList>
         )}
-            <GoogleAdsFeeds/>
+
       </Container>
       <Pagination context={pageContext} />
     </Layout>
