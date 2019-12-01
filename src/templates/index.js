@@ -8,6 +8,7 @@ import Container from '../components/Container'
 import Pagination from '../components/Pagination'
 import SEO from '../components/SEO'
 import config from '../utils/siteConfig'
+import GoogleAds from'../components/GoogleAds'
 
 const Index = ({ data, pageContext }) => {
   const posts = data.allContentfulPost.edges
@@ -38,6 +39,7 @@ const Index = ({ data, pageContext }) => {
             ))}
           </CardList>
         )}
+        <GoogleAds/>
       </Container>
       <Pagination context={pageContext} />
     </Layout>
