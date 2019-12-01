@@ -5,7 +5,7 @@ const GoogleAdsDisplay = () => (
     <AdSense.Google
         client='ca-pub-2901559959048252'
         slot='6826970879'
-        style={{ display: 'block', height: '30vh'}}
+        style={{ display: 'block', width: '60%', margin: '0 auto'}}
         format='auto'
         responsive='true'
     />
