@@ -14,14 +14,14 @@ const Biyaheroes = ({ data }) => {
   const postNode = {
     title: `Biyaheroes - ${config.siteTitle}`,
   }
-	
+
   return (
 	  <Layout>
       		<Helmet>
       			<title>{`Biyaheroes - ${config.siteTitle}`}</title>
       		</Helmet>
       		<SEO postNode={postNode} pagePath="biyaheroes" customTitle />
-	
+
       		<Container>
         		<PageTitle>Biyaheroes</PageTitle>
         		<BookingForm/>
