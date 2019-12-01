@@ -1,10 +1,9 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 
 const GoogleAds = () => {
   
   function googleAds(){ 
-    return `
+    return `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
        <!-- first ads -->
          <ins class="adsbygoogle"
           style="display:block"
@@ -17,10 +16,7 @@ const GoogleAds = () => {
         </script>` };
   
   return (
-    <Helmet>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    </Helmet>
-    <div dangerouslySetInnerHTML={{__html: googleAds()}} />
+        <div dangerouslySetInnerHTML={{__html: googleAds()}} />
   )
 }
 
