@@ -10,7 +10,6 @@ import TagList from '../components/TagList'
 import PostLinks from '../components/PostLinks'
 import PostDetails from '../components/PostDetails'
 import SEO from '../components/SEO'
-import GoogleAdsDisplay from '../components/GoogleAdsDisplay'
 import GoogleAdsFeeds from '../components/GoogleAdsFeeds'
 
 const PostTemplate = ({ data, pageContext }) => {
@@ -45,7 +44,7 @@ const PostTemplate = ({ data, pageContext }) => {
         />
         <GoogleAdsFeeds />
         <PageBody body={body} />
-        <GoogleAdsDisplay />
+        <GoogleAdsFeeds />
       </Container>
 
       <PostLinks previous={previous} next={next} />
