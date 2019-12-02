@@ -55,7 +55,7 @@ const Menu = () => {
             </Link>
           </li>
           <li>
-            <Link to="/biyaheroes/" activeStyle={activeLinkStyle}>
+            <Link to="/biyaheroes" activeStyle={activeLinkStyle}>
               Tickets!
             </Link>
           </li>
