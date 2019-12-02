@@ -55,9 +55,9 @@ const Menu = () => {
             </Link>
           </li>
           <li>
-            <Link to="/biyaheroes" activeStyle={activeLinkStyle}>
+            <a href='https://breyvtraveler.com/biyaheroes' activeStyle={activeLinkStyle}>
               Tickets!
-            </Link>
+            </a>
           </li>
           <li>
             <Link to="/about/" activeStyle={activeLinkStyle}>
