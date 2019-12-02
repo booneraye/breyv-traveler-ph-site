@@ -55,7 +55,7 @@ const Menu = () => {
             </Link>
           </li>
           <li>
-            <a href='https://breyvtraveler.com/biyaheroes' target='_blank'
+            <a href='https://breyvtraveler.com/biyaheroes' target='_blank'>
               Tickets!
             </a>
           </li>
