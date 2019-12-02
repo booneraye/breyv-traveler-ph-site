@@ -61,8 +61,9 @@ const TagTemplate = ({ data, pageContext }) => {
             <Card {...post} key={post.id} />
           ))}
         </CardList>
-        <GoogleAdsFeeds />
+
       </Container>
+      <GoogleAdsFeeds />
       <Pagination context={pageContext} />
     </Layout>
   )
