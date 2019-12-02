@@ -10,6 +10,7 @@ import CardList from '../components/CardList'
 import PageTitle from '../components/PageTitle'
 import Pagination from '../components/Pagination'
 import Container from '../components/Container'
+import GoogleAdsFeeds from '../components/GoogleAdsFeeds'
 
 const TagTemplate = ({ data, pageContext }) => {
   const posts = orderBy(
@@ -60,6 +61,7 @@ const TagTemplate = ({ data, pageContext }) => {
             <Card {...post} key={post.id} />
           ))}
         </CardList>
+        <GoogleAdsFeeds />
       </Container>
       <Pagination context={pageContext} />
     </Layout>
