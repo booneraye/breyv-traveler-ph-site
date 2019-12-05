@@ -69,7 +69,7 @@ const Footer = () => (
     <List>
         <Item>
             <a href=''>Facebook</a>
-        <Item>
+        <Item/>
     <List/>
   </Wrapper>
 )
