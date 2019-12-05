@@ -66,6 +66,11 @@ const Footer = () => (
         </a>
       </Item>
     </List>
+    <List>
+        <Item>
+            <a href=''>Facebook</a>
+        <Item>
+    <List/>
   </Wrapper>
 )
 
