@@ -10,11 +10,7 @@ import TagList from '../components/TagList'
 import PostLinks from '../components/PostLinks'
 import PostDetails from '../components/PostDetails'
 import SEO from '../components/SEO'
-<<<<<<< HEAD
 import GoogleAdsDisplay from '../components/GoogleAdsDisplay'
-=======
-import GoogleAdsArticle from '../components/GoogleAdsArticle'
->>>>>>> a319cfcd636402e5d11e64d981e59db719abb08b
 
 const PostTemplate = ({ data, pageContext }) => {
 
@@ -46,15 +42,9 @@ const PostTemplate = ({ data, pageContext }) => {
           date={publishDate}
           timeToRead={body.childMarkdownRemark.timeToRead}
         />
-<<<<<<< HEAD
         <GoogleAdsDisplay />
         <PageBody body={body} />
         <GoogleAdsDisplay />
-=======
-        <GoogleAdsArticle />
-        <PageBody body={body} />
-        <GoogleAdsArticle />
->>>>>>> a319cfcd636402e5d11e64d981e59db719abb08b
       </Container>
 
       <PostLinks previous={previous} next={next} />
