@@ -76,7 +76,7 @@ const Footer = () => (
         <Item>
             <a href=''>Instagram</a>
         </Item>
-    <List/>
+    </List>
   </Wrapper>
 )
 
