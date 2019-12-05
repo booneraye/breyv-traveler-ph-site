@@ -4,11 +4,10 @@ import AdSense from 'react-adsense';
 const GoogleAdsArticle = () => (
     <AdSense.Google
         client='ca-pub-2901559959048252'
-        slot='8492202498'
-        style={{ display: 'block', height: '30vh'}}
+        slot='2466630440'
+        style={{ display:'block', textAlign:'center'}}
         format='fluid'
-        responsive='true'
-        layoutKey='-6h+dd+4d-5u+3c'
+        layoutKey='in-article'
     />
 );
 
