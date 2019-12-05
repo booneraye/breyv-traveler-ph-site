@@ -46,7 +46,7 @@ const Footer = () => (
     <List>
       <Item>
         <a
-          href="https://breyvtravelerph.netlify.com"
+          href="https://breyvtraveler.com"
           rel="nofollow noopener noreferrer"
           target="_blank"
         >
