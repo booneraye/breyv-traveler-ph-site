@@ -66,15 +66,6 @@ const Footer = () => (
         </a>
       </Item>
     </List>
-    <List>
-        <Item>
-            <a href=''>Facebook</a> |
-
-            <a href=''>Twitter</a> |
-
-            <a href=''>Instagram</a>
-        </Item>
-    </List>
   </Wrapper>
 )
 
