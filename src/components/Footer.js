@@ -14,12 +14,11 @@ const List = styled.ul`
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: Center;
   width: 100%;
   border-top: 1px solid ${props => props.theme.colors.secondary};
   padding: 1em 0 2em;
   margin: 0 1.5em;
-  text-align: center;
 `
 
 const Item = styled.li`
