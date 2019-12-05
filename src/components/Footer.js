@@ -70,6 +70,12 @@ const Footer = () => (
         <Item>
             <a href=''>Facebook</a>
         <Item/>
+        <Item>
+            <a href=''>Twitter</a>
+        <Item/>
+        <Item>
+            <a href=''>Instagram</a>
+        <Item/>
     <List/>
   </Wrapper>
 )
