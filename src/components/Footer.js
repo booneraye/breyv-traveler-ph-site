@@ -19,12 +19,31 @@ const List = styled.ul`
   border-top: 1px solid ${props => props.theme.colors.secondary};
   padding: 1em 0 2em;
   margin: 0 1.5em;
+  text-align: center;
 `
 
 const Item = styled.li`
   display: inline-block;
   padding: 0.25em 0;
   width: 100%;
+  @media screen and (min-width: ${props => props.theme.responsive.small}) {
+    width: auto;
+  }
+  a {
+    font-weight: 600;
+    transition: all 0.2s;
+    color: ${props => props.theme.colors.base};
+    &:hover {
+      color: ${props => props.theme.colors.highlight};
+    }
+    &:visited {
+      color: ${props => props.theme.colors.base};
+    }
+  }
+`
+
+const Links = styled.li`
+  display: inline-block;
   @media screen and (min-width: ${props => props.theme.responsive.small}) {
     width: auto;
   }
@@ -67,15 +86,15 @@ const Footer = () => (
       </Item>
     </List>
     <List>
-        <Item>
+        <Links>
             <a href=''>Facebook</a>
-        </Item>
-        <Item>
+        </Links>
+        <Links>
             <a href=''>Twitter</a>
-        </Item>
-        <Item>
+        </Links>
+        <Links>
             <a href=''>Instagram</a>
-        </Item>
+        </Links>
     </List>
   </Wrapper>
 )
