@@ -42,24 +42,6 @@ const Item = styled.li`
   }
 `
 
-const Links = styled.li`
-  display: inline-block;
-  @media screen and (min-width: ${props => props.theme.responsive.small}) {
-    width: auto;
-  }
-  a {
-    font-weight: 600;
-    transition: all 0.2s;
-    color: ${props => props.theme.colors.base};
-    &:hover {
-      color: ${props => props.theme.colors.highlight};
-    }
-    &:visited {
-      color: ${props => props.theme.colors.base};
-    }
-  }
-`
-
 const Footer = () => (
   <Wrapper>
     <List>
@@ -86,13 +68,13 @@ const Footer = () => (
       </Item>
     </List>
     <List>
-        <Links>
+        <Item>
             <a href=''>Facebook</a> |
 
             <a href=''>Twitter</a> |
 
             <a href=''>Instagram</a>
-        </Links>
+        </Item>
     </List>
   </Wrapper>
 )
