@@ -87,12 +87,10 @@ const Footer = () => (
     </List>
     <List>
         <Links>
-            <a href=''>Facebook</a>
-        </Links>
-        <Links>
-            <a href=''>Twitter</a>
-        </Links>
-        <Links>
+            <a href=''>Facebook</a> |
+
+            <a href=''>Twitter</a> |
+
             <a href=''>Instagram</a>
         </Links>
     </List>
