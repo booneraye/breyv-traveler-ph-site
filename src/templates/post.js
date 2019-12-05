@@ -10,7 +10,7 @@ import TagList from '../components/TagList'
 import PostLinks from '../components/PostLinks'
 import PostDetails from '../components/PostDetails'
 import SEO from '../components/SEO'
-import GoogleAdsFeeds from '../components/GoogleAdsArticle'
+import GoogleAdsArticle from '../components/GoogleAdsArticle'
 
 const PostTemplate = ({ data, pageContext }) => {
 

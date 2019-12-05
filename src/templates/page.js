@@ -7,7 +7,7 @@ import Container from '../components/Container'
 import PageTitle from '../components/PageTitle'
 import PageBody from '../components/PageBody'
 import SEO from '../components/SEO'
-import GoogleAdsDisplay from '../components/GoogleAdsArticle'
+import GoogleAdsArticle from '../components/GoogleAdsArticle'
 
 const PageTemplate = ({ data }) => {
   const { title, slug, body } = data.contentfulPage
