@@ -41,7 +41,6 @@ const PostTemplate = ({ data, pageContext }) => {
           date={publishDate}
           timeToRead={body.childMarkdownRemark.timeToRead}
         />
-
         <PageBody body={body} />
       </Container>
 
