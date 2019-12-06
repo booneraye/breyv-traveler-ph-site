@@ -42,13 +42,16 @@ const PostTemplate = ({ data, pageContext }) => {
           date={publishDate}
           timeToRead={body.childMarkdownRemark.timeToRead}
         />
-        <AdSense.Google
-            client='ca-pub-2901559959048252'
-            slot='6826970879'
-            style={{ display: 'block'}}
-            format='auto'
-            responsive='true'
-        />
+        <PageBody>
+            <AdSense.Google
+                client='ca-pub-2901559959048252'
+                slot='6826970879'
+                style={{ display: 'block'}}
+                format='auto'
+                responsive='true'
+            />
+        <PageBody/>
+
         <PageBody body={body} />
       </Container>
 
