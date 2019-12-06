@@ -46,7 +46,12 @@ const PostTemplate = ({ data, pageContext }) => {
         <div id='ads_container'>
             <GoogleAdsDisplay />
         </div>
+        
         <PageBody body={body} />
+
+        <div id='ads_container'>
+            <GoogleAdsDisplay />
+        </div>
       </Container>
 
       <PostLinks previous={previous} next={next} />
