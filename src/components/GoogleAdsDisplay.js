@@ -8,7 +8,7 @@ const Adservice = () => {
 }
 
 const GoogleAdsDisplay = () => (
-    <Adservice>
+    <Adservice/>
     <AdSense.Google
         client='ca-pub-2901559959048252'
         slot='6826970879'
