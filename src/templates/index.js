@@ -15,6 +15,7 @@ const Index = ({ data, pageContext }) => {
   const featuredPost = posts[0].node
   const { currentPage } = pageContext
   const isFirstPage = currentPage === 1
+  const ads = `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>`;
 
   return (
     <Layout>
@@ -45,6 +46,7 @@ const Index = ({ data, pageContext }) => {
 
       </Container>
       <Pagination context={pageContext} />
+      <div dangerouslySetInnerHTML={ ads } />
     </Layout>
   )
 }

@@ -1,10 +1,8 @@
 import React from 'react';
 import AdSense from 'react-adsense';
 
-const ads = `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>`;
-
 const GoogleAdsDisplay = () => (
-    <div dangerouslySetInnerHTML={ ads } />
+
     <AdSense.Google
         client='ca-pub-2901559959048252'
         slot='6826970879'
