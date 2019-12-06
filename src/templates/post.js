@@ -9,7 +9,7 @@ import PageBody from '../components/PageBody'
 import TagList from '../components/TagList'
 import PostLinks from '../components/PostLinks'
 import PostDetails from '../components/PostDetails'
-import AdSense from 'react-adsense'
+import GoogleAdsDisplay from '../components/GoogleAdsDisplay'
 import SEO from '../components/SEO'
 
 const PostTemplate = ({ data, pageContext }) => {
@@ -42,16 +42,8 @@ const PostTemplate = ({ data, pageContext }) => {
           date={publishDate}
           timeToRead={body.childMarkdownRemark.timeToRead}
         />
-        <PageBody>
-            <AdSense.Google
-                client='ca-pub-2901559959048252'
-                slot='6826970879'
-                style={{ display: 'block'}}
-                format='auto'
-                responsive='true'
-            />
-        <PageBody/>
 
+        <PageBody body={<GoogleAdsDisplay/>}>
         <PageBody body={body} />
       </Container>
 
