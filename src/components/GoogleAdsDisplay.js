@@ -4,9 +4,7 @@ import AdSense from 'react-adsense';
 const ads = `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>`;
 
 const Adservice = () => (
-    return(
-        <div dangerouslySetInnerHTML={ ads } />
-    );
+    <div dangerouslySetInnerHTML={ ads } />
 );
 
 const GoogleAdsDisplay = () => (
