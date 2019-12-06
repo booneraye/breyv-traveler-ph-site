@@ -10,6 +10,7 @@ import TagList from '../components/TagList'
 import PostLinks from '../components/PostLinks'
 import PostDetails from '../components/PostDetails'
 import SEO from '../components/SEO'
+import AdSense from 'react-adsense';
 
 const PostTemplate = ({ data, pageContext }) => {
 
@@ -40,6 +41,13 @@ const PostTemplate = ({ data, pageContext }) => {
         <PostDetails
           date={publishDate}
           timeToRead={body.childMarkdownRemark.timeToRead}
+        />
+        <AdSense.Google
+            client='ca-pub-2901559959048252'
+            slot='6826970879'
+            style={{ display: 'block'}}
+            format='auto'
+            responsive='true'
         />
         <PageBody body={body} />
       </Container>
