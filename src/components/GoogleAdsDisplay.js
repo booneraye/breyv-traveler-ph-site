@@ -1,10 +1,12 @@
 import React from 'react';
 import AdSense from 'react-adsense';
 
-const Adservice = () => (
-    const ads = `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>`;
+const ads = `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>`;
 
-    return `<div dangerouslySetInnerHTML={ ads } />`;
+const Adservice = () => (
+    return(
+        <div dangerouslySetInnerHTML={ ads } />
+    );
 );
 
 const GoogleAdsDisplay = () => (
