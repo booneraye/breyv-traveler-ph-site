@@ -1,14 +1,14 @@
 import React from 'react';
 import AdSense from 'react-adsense';
 
-const Adservice = () => {
+const Adservice = () => (
     const ads = `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>`;
 
     return `<div dangerouslySetInnerHTML={ ads } />`;
-}
+);
 
 const GoogleAdsDisplay = () => (
-    <Adservice/>
+    <Adservice />
     <AdSense.Google
         client='ca-pub-2901559959048252'
         slot='6826970879'
