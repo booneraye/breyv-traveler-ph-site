@@ -1,7 +1,7 @@
 import React from 'react'
 import header from '../styles/header.css'
 import ScriptTag from 'react-script-tag';
-import headerJS ffrom '../js/header.js'
+import headerJS from '../js/header.js'
 
 const Menu = () => {
   return (
