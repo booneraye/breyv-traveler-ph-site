@@ -1,6 +1,6 @@
 import React from 'react'
 import omegaCSS from '../styles/assets/css/omega.css'
-import omegaJS from './styles/assets/js/omega.js'
+import omegaJS from '../styles/assets/js/omega.js'
 
 const Menu = () => {
   return (
