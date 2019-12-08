@@ -108,6 +108,7 @@ const Body = styled.div`
 
   tr {
     border-color: ${props => props.theme.colors.secondary};
+    max-width: 100%;
   }
 `
 
