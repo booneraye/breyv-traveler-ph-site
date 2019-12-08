@@ -15,8 +15,9 @@ const Menu = () => {
                 <i class="fa fa-bars"></i>
             </a>
         </div>
+        <ScriptTag isHydrating={true} type="text/javascript" src={headerJS} />
     </div>
-    <ScriptTag isHydrating={true} type="text/javascript" src={headerJS} />
+
   )
 }
 
