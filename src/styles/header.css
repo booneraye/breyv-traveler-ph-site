@@ -21,8 +21,7 @@
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  transform: bold;
 }
 
 .topnav .icon {
@@ -33,7 +32,7 @@
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
-    display: block;
+    display: flex;
   }
 }
 
@@ -46,7 +45,7 @@
   }
   .topnav.responsive a {
     float: none;
-    display: block;
+    display: flex;
     text-align: left;
   }
 }
