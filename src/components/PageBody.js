@@ -104,12 +104,16 @@ const Body = styled.div`
     border-color: ${props => props.theme.colors.secondary};
     margin: 0 0 2em 0;
     width: 100%;
+    text-align: center;
   }
 
   td {
     border-color: ${props => props.theme.colors.secondary};
-    width: 100%;
     padding: 10px
+  }
+
+  thead {
+    transform: bold;
   }
 `
 
