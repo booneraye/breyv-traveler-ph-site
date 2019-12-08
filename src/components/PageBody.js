@@ -107,7 +107,7 @@ const Body = styled.div`
     padding: 8px;
   }
 
-  thead {
+  th {
     border: 1px solid #ddd;
     padding: 8px;
     padding-top: 12px;
