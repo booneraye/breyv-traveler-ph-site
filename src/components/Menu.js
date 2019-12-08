@@ -7,24 +7,24 @@ const Menu = () => {
     <label for="show-menu" class="show-menu">Show Menu</label>
     <input type="checkbox" id="show-menu" role="button">
         <ul id="menu">
-        <li><a href="#">Home</a></li>
+        <li><a href="https://breyvtraveler.com/">Home</a></li>
         <li>
-            <a href="#">About ￬</a>
+            <a href="https://breyvtraveler.com/about/">About ￬</a>
             <ul class="hidden">
                 <li><a href="#">Who We Are</a></li>
                 <li><a href="#">What We Do</a></li>
             </ul>
         </li>
         <li>
-            <a href="#">Portfolio ￬</a>
+            <a href="#">Social Media Accounts ￬</a>
             <ul class="hidden">
-                <li><a href="#">Photography</a></li>
-                <li><a href="#">Web & User Interface Design</a></li>
-                <li><a href="#">Illustration</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagran</a></li>
+                <li><a href="#">Youtube</a></li>
             </ul>
         </li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="https://breyvtraveler.com/biyaheroes" target='_blank'>Buy Tickets</a></li>
+        <li><a href="https://breyvtraveler.com/contact/">Contact</a></li>
     </ul>
     </div>
 
