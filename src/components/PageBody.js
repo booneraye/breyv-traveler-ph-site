@@ -96,6 +96,12 @@ const Body = styled.div`
       background: inherit !important;
     }
   }
+  table {
+    border: 5px;
+    border-style: solid;
+    border-color: ${props => props.theme.colors.secondary};
+    margin: 0 0 2em 0;
+  }
 `
 
 const PageBody = props => {
