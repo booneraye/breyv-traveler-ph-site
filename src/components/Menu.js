@@ -2,24 +2,30 @@ import React from 'react'
 import header from '../styles/header.css'
 
 const Menu = () => {
-    function myFunction(){
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-    }
   return (
     <div>
-        <div class="topnav" id="myTopnav">
-            <a href="https://breyvtraveler.com/" class="active">Home</a>
-            <a href="https://breyvtraveler.com/contact">Contact</a>
-            <a href="https://breyvtraveler.com/about">About</a>
-            <a href="javascript:void(0);" class="icon" onClick={myFunction}>
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
+    <label for="show-menu" class="show-menu">Show Menu</label>
+    <input type="checkbox" id="show-menu" role="button">
+        <ul id="menu">
+        <li><a href="#">Home</a></li>
+        <li>
+            <a href="#">About ￬</a>
+            <ul class="hidden">
+                <li><a href="#">Who We Are</a></li>
+                <li><a href="#">What We Do</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Portfolio ￬</a>
+            <ul class="hidden">
+                <li><a href="#">Photography</a></li>
+                <li><a href="#">Web & User Interface Design</a></li>
+                <li><a href="#">Illustration</a></li>
+            </ul>
+        </li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
     </div>
 
   )
