@@ -103,12 +103,13 @@ const Body = styled.div`
     border-style: solid;
     border-color: ${props => props.theme.colors.secondary};
     margin: 0 0 2em 0;
-    max-width: 100%;
+    width: 100%;
   }
 
   tr {
     border-color: ${props => props.theme.colors.secondary};
-    max-width: 100%;
+    width: 100%;
+    padding: 10px
   }
 `
 
