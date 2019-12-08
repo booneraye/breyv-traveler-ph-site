@@ -12,6 +12,8 @@
 .topnav {
   overflow: hidden;
   background-color: #333;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .topnav a {
@@ -25,7 +27,7 @@
 }
 
 .topnav a:hover {
-  text-transform: bold;
+  text-transform: uppercase;
 }
 
 .topnav .icon {
