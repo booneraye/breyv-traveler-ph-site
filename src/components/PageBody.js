@@ -106,7 +106,7 @@ const Body = styled.div`
     width: 100%;
   }
 
-  tr {
+  td {
     border-color: ${props => props.theme.colors.secondary};
     width: 100%;
     padding: 10px
