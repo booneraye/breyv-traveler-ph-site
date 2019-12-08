@@ -13,7 +13,7 @@ const Menu = () => {
                 <i class="fa fa-bars"></i>
             </a>
         </div>
-        <ScriptTag isHydrating={true} type="text/javascript" src='../js/header.js' />
+        <ScriptTag isHydrating={true} type="text/javascript" src='https://breyvtraveler.com/js/header.js' />
     </div>
 
   )
