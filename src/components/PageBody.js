@@ -108,11 +108,13 @@ const Body = styled.div`
   }
 
   td {
+    border-style: solid;
     border-color: ${props => props.theme.colors.secondary};
     padding: 10px
   }
 
   thead {
+    padding: 10px
     transform: bold;
     background-color: grey;
   }
