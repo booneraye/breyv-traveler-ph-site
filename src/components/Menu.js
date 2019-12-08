@@ -1,6 +1,5 @@
 import React from 'react'
 import header from '../styles/header.css'
-import ScriptTag from 'react-script-tag';
 
 const Menu = () => {
   return (
@@ -13,7 +12,6 @@ const Menu = () => {
                 <i class="fa fa-bars"></i>
             </a>
         </div>
-        <ScriptTag isHydrating={true} type="text/javascript" src='https://breyvtraveler.com/js/header.js' />
     </div>
 
   )
