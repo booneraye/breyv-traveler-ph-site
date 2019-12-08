@@ -114,6 +114,7 @@ const Body = styled.div`
 
   thead {
     transform: bold;
+    background-color: grey;
   }
 `
 
