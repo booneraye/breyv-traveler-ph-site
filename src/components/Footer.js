@@ -7,16 +7,11 @@ const Footer = () => (
         <div class="footer-left">
             <h3>Brave Traveler PH</h3>
             <p class="footer-links">
-		        <a href="#">Home</a>
-	            ·
-		        <a href="#">Blog</a>
-	            ·
-		        <a href="#">Pricing</a>
-	            ·
-		        <a href="#">About</a>
-	            ·
-		        <a href="#">Faq</a>
-	            ·
+		        <a href="#">Home</a> ·
+		        <a href="#">Blog</a> ·
+		        <a href="#">Pricing</a> ·
+		        <a href="#">About</a> ·
+		        <a href="#">Faq</a> ·
 		        <a href="#">Contact</a>
 		    </p>
 
@@ -34,7 +29,7 @@ const Footer = () => (
 		    </div>
             <div>
 		        <i class="fa fa-envelope"></i>
-		        <p><a href="mailto:support@company.com">contact@webdevtrick.com</a></p>
+		        <p><a href="mailto:connect@breyvtraveler.com">connect@breyvtraveler.com</a></p>
 		    </div>
 		</div>
 
@@ -45,10 +40,8 @@ const Footer = () => (
 		    </p>
 
 		    <div class="footer-icons">
- 		        <a href="#"><i class="fa fa-facebook"></i></a>
-		        <a href="#"><i class="fa fa-twitter"></i></a>
-		        <a href="#"><i class="fa fa-linkedin"></i></a>
-		        <a href="#"><i class="fa fa-github"></i></a>
+ 		        <a href="https://www.facebook.com/bravetravelerph/"><i class="fa fa-facebook"></i></a>
+		        <a href="https://www.instagram.com/bravetravelerph/"><i class="fa fa-instagram"></i></a>
 		    </div>
 		</div>
 
