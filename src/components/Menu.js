@@ -14,22 +14,6 @@ const Menu = () => {
             <i class="fa fa-bars"></i>
         </a>
     </div>
-    <Helmet>
-        <script>
-            {
-                `
-                function myFunction() {
-                    var x = document.getElementById("myTopnav");
-                    if (x.className === "topnav") {
-                        x.className += " responsive";
-                    } else {
-                        x.className = "topnav";
-                    }
-                }
-                `
-            }
-        </script>
-    </Helmet>
     </div>
   )
 }
