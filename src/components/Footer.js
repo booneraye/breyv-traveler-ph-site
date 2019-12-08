@@ -31,10 +31,7 @@ const Footer = () => (
 		        <i class="fa fa-envelope"></i>
 		        <p><a href="mailto:connect@breyvtraveler.com">connect@breyvtraveler.com</a></p>
 		    </div>
-            <div class="footer-icons">
- 		        <a href="https://www.facebook.com/bravetravelerph/"><i class="fa fa-facebook"></i></a>
-		        <a href="https://www.instagram.com/bravetravelerph/"><i class="fa fa-instagram"></i></a>
-		    </div>
+
 		</div>
 
 		<div class="footer-right">
@@ -42,6 +39,10 @@ const Footer = () => (
 		        <span>About</span>
 	            Brave traveler ph started as a dream that travelling, especially in the Philippines will soon become easier and adventurous by giving the people tips, encouragement, ideas and support on how to explore the beauty of our own country. It is an idealism that you don't have need a lot of funds or money to be able to travel, you just need to be BRAVE enough to do so.
 		    </p>
+            <div class="footer-icons">
+ 		        <a href="https://www.facebook.com/bravetravelerph/"><i class="fa fa-facebook"></i></a>
+		        <a href="https://www.instagram.com/bravetravelerph/"><i class="fa fa-instagram"></i></a>
+		    </div>
 		</div>
 
 	</footer>
