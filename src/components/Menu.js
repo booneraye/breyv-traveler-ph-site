@@ -3,7 +3,6 @@ import header from '../styles/header.css'
 
 const Menu = () => {
   return (
-    <div>
         <label for="show-menu" class="show-menu">Show Menu</label>
         <input type="checkbox" id="show-menu" role="button">
         <ul id="menu">
@@ -24,7 +23,6 @@ const Menu = () => {
             <li><a href="https://breyvtraveler.com/biyaheroes" target='_blank'>Buy Tickets</a></li>
             <li><a href="https://breyvtraveler.com/contact/">Contact</a></li>
         </ul>
-    </div>
   )
 }
 
