@@ -1,72 +1,47 @@
 import React from 'react'
-import styled from 'styled-components'
-
-const Wrapper = styled.footer`
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin: 0 auto;
-  max-width: ${props => props.theme.sizes.maxWidth};
-`
-
-const List = styled.ul`
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: Center;
-  width: 100%;
-  border-top: 1px solid ${props => props.theme.colors.secondary};
-  padding: 1em 0 2em;
-  margin: 0 1.5em;
-`
-
-const Item = styled.li`
-  display: inline-block;
-  padding: 0.25em 0;
-  width: 100%;
-  @media screen and (min-width: ${props => props.theme.responsive.small}) {
-    width: auto;
-  }
-  a {
-    font-weight: 600;
-    transition: all 0.2s;
-    color: ${props => props.theme.colors.base};
-    &:hover {
-      color: ${props => props.theme.colors.highlight};
-    }
-    &:visited {
-      color: ${props => props.theme.colors.base};
-    }
-  }
-`
+import footer from '../styles/footer.css'
 
 const Footer = () => (
-  <Wrapper>
-    <List>
-      <Item>
-        <a
-          href="https://breyvtraveler.com"
-          rel="nofollow noopener noreferrer"
-          target="_blank"
-        >
-          <img
-            src="https://images.ctfassets.net/fo9twyrwpveg/44baP9Gtm8qE2Umm8CQwQk/c43325463d1cb5db2ef97fca0788ea55/PoweredByContentful_LightBackground.svg"
-            style={{ width: '100px' }}
-            alt="Powered by Contentful"
-          />
-        </a>
-      </Item>
-      <Item>
-        <a
-          href="https://breyvtraveler.com"
-          rel="noopener noreferrer"
-        >
-          All rights reserve 2019 | BRAVE TRAVELER PH
-        </a>
-      </Item>
-    </List>
-  </Wrapper>
+    <React.Fragment>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <h6>About</h6>
+                        <p class="text-justify">Brave traveler ph started as a dream that travelling, especially in the Philippines will soon become easier and adventurous by giving the people tips, encouragement, ideas and support on how to explore the beauty of our own country. It is an idealism that you don't have need a lot of funds or money to be able to travel, you just need to be BRAVE enough to do so.</p>
+                    </div>
+
+                    <div class="col-xs-6 col-md-3">
+                        <h6>Quick Links</h6>
+                        <ul class="footer-links">
+                            <li><a href="https://breyvtraveler.com/about/">About Us</a></li>
+                            <li><a href="https://breyvtraveler.com/contact/">Contact Us</a></li>
+                            <li><a href="https://breyvtraveler.com/privacy-policy/">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                        <p class="copyright-text">Copyright &copy; 2019 All Rights Reserved by
+                        <a href="#">BRAvE TRAVELER PH</a>.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <ul class="social-icons">
+                            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </ React.Fragment>
 )
 
 export default Footer
