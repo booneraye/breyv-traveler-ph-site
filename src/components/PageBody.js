@@ -98,25 +98,29 @@ const Body = styled.div`
   }
 
   table {
-    border: 2px;
-    border-radius: 2px;
-    border-style: solid;
-    border-color: ${props => props.theme.colors.secondary};
-    margin: 0 0 2em 0;
+    border-collapse: collapse;
     width: 100%;
-    text-align: center;
   }
 
   td {
-    border-style: solid;
-    border-color: ${props => props.theme.colors.secondary};
-    padding: 10px
+    border: 1px solid #ddd;
+    padding: 8px;
   }
 
   thead {
-    padding: 10px
-    transform: bold;
-    background-color: grey;
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  tr:nth-child(even){background-color: #f2f2f2;}
+  tr:hover {background-color: #ddd;}
+
+  thead {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+    background-color: #4CAF50;
+    color: white;
   }
 `
 
