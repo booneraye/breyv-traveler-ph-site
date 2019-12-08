@@ -1,7 +1,9 @@
 import React from 'react'
 import footer from '../styles/footer.css'
+import Helmet from 'react-helmet'
 
 const Footer = () => (
+
     <footer class="footer-distributed">
         <div class="footer-left">
             <h3>Brave Traveler PH</h3>
@@ -52,6 +54,9 @@ const Footer = () => (
 		</div>
 
 	</footer>
+    <Helmet>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    </Helmet>
 )
 
 export default Footer
