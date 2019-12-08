@@ -11,7 +11,7 @@ const Menu = () => {
         }
     }
   return (
-    <div>
+    <div class='menu_container'>
         <div class="topnav" id="myTopnav">
             <img src='https://breyvtraveler.com/logos/logo1.png' class='logo'/>
             <a href="https://breyvtraveler.com/">Home</a>
