@@ -103,7 +103,7 @@ const Body = styled.div`
     border-style: solid;
     border-color: ${props => props.theme.colors.secondary};
     margin: 0 0 2em 0;
-    max-width: ${props => props.theme.sizes.maxWidthCentered};
+    max-width: 100%;
   }
 
   tr {
