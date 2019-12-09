@@ -13,7 +13,7 @@ const Menu = () => {
   return (
     <div class='menu_container'>
         <div class="topnav" id="myTopnav">
-            <img src='https://breyvtraveler.com/logos/logo1.png' class='logo'/>
+            <img src='https://breyvtraveler.com/logos/brave_traveler_ph.png' class='logo'/>
             <a href="https://breyvtraveler.com/contact">Contact</a>
             <a href="https://breyvtraveler.com/about">About</a>
             <a href="https://breyvtraveler.com/biyaheroes" target='_blank'>Buy Tickets</a>
