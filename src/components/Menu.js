@@ -2,27 +2,19 @@ import React from 'react'
 import header from '../styles/header.css'
 
 const Menu = () => {
-    function myFunction(){
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-    }
+
   return (
-    <div class='menu_container'>
-        <div class="topnav" id="myTopnav">
-            <img src='https://breyvtraveler.com/logos/brave_traveler_ph.png' class='logo'/>
-            <a href="https://breyvtraveler.com/contact">Contact</a>
-            <a href="https://breyvtraveler.com/about">About</a>
-            <a href="https://breyvtraveler.com/biyaheroes" target='_blank'>Buy Tickets</a>
-            <a href="https://breyvtraveler.com/">Home</a>
-            <a href="javascript:void(0);" class="icon" onClick={myFunction}>
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
-    </div>
+
+    <header class="header">
+        <a href="" class="logo"><img src='https://breyvtraveler.com/logos/brave_traveler_ph.png' class='logos'/></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="ttps://breyvtraveler.com/about/">About</a></li>
+            <li><a href="https://breyvtraveler.com/biyaheroes" target='_blank'>Buy Tickets</a></li>
+            <li><a href="https://breyvtraveler.com/contact/">Contact</a></li>
+        </ul>
+    </header>
 
   )
 }
