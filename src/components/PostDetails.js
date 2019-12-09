@@ -27,10 +27,12 @@ const PostDetails = props => {
       <Date>📅 {props.date}</Date>
       <span>•</span>
       <ReadingTime>{`⏱️${props.timeToRead} min read `}</ReadingTime>
+      <span>•</span>
       <ShareButton>
         <div class="fb-share-button"
             data-href={props.shareLink}
-            data-layout="button_count">
+            data-layout="button"
+            data-size="large" >
         </div>
       </ShareButton>
     </Wrapper>
