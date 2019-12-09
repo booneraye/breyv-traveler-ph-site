@@ -24,6 +24,17 @@ const PostDetails = props => {
       <span>•</span>
       <ReadingTime>{`⏱️${props.timeToRead} min read `}</ReadingTime>
     </Wrapper>
+    <Wrapper>
+        <div
+            class="fb-share-button"
+            data-href={props.shareLink}
+            data-layout="button"
+            data-size="large">
+                <a target="_blank"
+                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbreyvtraveler.com%2Fsaving-the-world-from-boredom-play-nation-saves-the-world%2F&amp;src=sdkpreparse"
+                    class="fb-xfbml-parse-ignore">Share</a>
+        </div>
+    </Wrapper>
   )
 }
 
