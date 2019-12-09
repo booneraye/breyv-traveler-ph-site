@@ -6,7 +6,7 @@ const Menu = () => {
   return (
 
     <header class="header">
-        <a href="" class="logo"><img src='https://breyvtraveler.com/logos/brave_traveler_ph.png' class='logos'/></a>
+        <a href="" class="logo"><img src='https://breyvtraveler.com/logos/brave_black.png' class='logos'/></a>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
