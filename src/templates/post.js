@@ -38,11 +38,10 @@ const PostTemplate = ({ data, pageContext }) => {
       <Hero title={title} image={heroImage} height={'50vh'} />
 
       <Container>
-        {tags && <TagList tags={tags} />}
+        {tags && <TagList tags={tags} shareLink={`https://breyvtraveler.com/${slug}`} />}
         <PostDetails
           date={publishDate}
           timeToRead={body.childMarkdownRemark.timeToRead}
-          shareLink={`https://breyvtraveler.com/${slug}`}
         />
         <div id='ads_container'>
             <GoogleAdsDisplay />

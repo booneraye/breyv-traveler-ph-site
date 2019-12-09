@@ -17,10 +17,6 @@ const ReadingTime = styled.p`
   display: inline-block;
 `
 
-const ShareButton = styled.div`
-  display: inline-block;
-`
-
 const PostDetails = props => {
   return (
     <Wrapper>
@@ -28,13 +24,7 @@ const PostDetails = props => {
       <span>•</span>
       <ReadingTime>{`⏱️${props.timeToRead} min read `}</ReadingTime>
       <span>•</span>
-      <ShareButton>
-        <div class="fb-share-button"
-            data-href={props.shareLink}
-            data-layout="button"
-            data-size="large" >
-        </div>
-      </ShareButton>
+
     </Wrapper>
   )
 }

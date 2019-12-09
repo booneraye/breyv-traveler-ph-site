@@ -27,6 +27,10 @@ const Tag = styled.li`
   }
 `
 
+const ShareButton = styled.div`
+  display: inline-block;
+`
+
 const TagList = props => {
   return (
     <List>
@@ -35,6 +39,13 @@ const TagList = props => {
           <Link to={`/tag/${tag.slug}/`}>{tag.title}</Link>
         </Tag>
       ))}
+      <ShareButton>
+        <div class="fb-share-button"
+            data-href={props.shareLink}
+            data-layout="button"
+            data-size="large" >
+        </div>
+      </ShareButton>
     </List>
   )
 }
