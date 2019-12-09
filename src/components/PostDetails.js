@@ -23,8 +23,6 @@ const PostDetails = props => {
       <Date>📅 {props.date}</Date>
       <span>•</span>
       <ReadingTime>{`⏱️${props.timeToRead} min read `}</ReadingTime>
-      <span>•</span>
-
     </Wrapper>
   )
 }
