@@ -12,6 +12,7 @@ import PostDetails from '../components/PostDetails'
 import GoogleAdsDisplay from '../components/GoogleAdsDisplay'
 import SEO from '../components/SEO'
 import styleAds from '../styles/styles.css'
+import ShareButton from '../components/ShareButton'
 
 const PostTemplate = ({ data, pageContext }) => {
 
@@ -42,6 +43,9 @@ const PostTemplate = ({ data, pageContext }) => {
         <PostDetails
           date={publishDate}
           timeToRead={body.childMarkdownRemark.timeToRead}
+          shareLink={`https://breyvtraveler.com/${slug}`}
+        />
+        <ShareButton
           shareLink={`https://breyvtraveler.com/${slug}`}
         />
         <div id='ads_container'>
