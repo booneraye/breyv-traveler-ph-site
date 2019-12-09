@@ -26,13 +26,13 @@ const PostDetails = props => {
     </Wrapper>
     <Wrapper>
         <div
-            class="fb-share-button"
+            class="fb-like"
             data-href={props.shareLink}
             data-layout="button"
-            data-size="large">
-                <a target="_blank"
-                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbreyvtraveler.com%2Fsaving-the-world-from-boredom-play-nation-saves-the-world%2F&amp;src=sdkpreparse"
-                    class="fb-xfbml-parse-ignore">Share</a>
+            data-width=""
+            data-size="large"
+            data-action="like"
+            data-share="true">
         </div>
     </Wrapper>
   )
