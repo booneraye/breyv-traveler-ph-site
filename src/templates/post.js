@@ -42,11 +42,12 @@ const PostTemplate = ({ data, pageContext }) => {
         <PostDetails
           date={publishDate}
           timeToRead={body.childMarkdownRemark.timeToRead}
+          shareLink={`https://breyvtraveler.com/${slug}`}
         />
         <div id='ads_container'>
             <GoogleAdsDisplay />
         </div>
-        
+
         <PageBody body={body} />
 
         <div id='ads_container'>
