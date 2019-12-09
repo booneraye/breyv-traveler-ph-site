@@ -35,13 +35,6 @@ const TagList = props => {
           <Link to={`/tag/${tag.slug}/`}>{tag.title}</Link>
         </Tag>
       ))}
-      <Tag>
-        <div class="fb-share-button"
-            data-href={props.shareLink}
-            data-layout="button"
-            data-size="large" >
-        </div>
-      </Tag>
     </List>
   )
 }

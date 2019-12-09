@@ -38,7 +38,7 @@ const PostTemplate = ({ data, pageContext }) => {
       <Hero title={title} image={heroImage} height={'50vh'} />
 
       <Container>
-        {tags && <TagList tags={tags} shareLink={`https://breyvtraveler.com/${slug}`} />}
+        {tags && <TagList tags={tags}/>}
         <PostDetails
           date={publishDate}
           timeToRead={body.childMarkdownRemark.timeToRead}
