@@ -43,7 +43,6 @@ const PostTemplate = ({ data, pageContext }) => {
         <PostDetails
           date={publishDate}
           timeToRead={body.childMarkdownRemark.timeToRead}
-          shareLink={`https://breyvtraveler.com/${slug}`}
         />
         <ShareButton
           shareLink={`https://breyvtraveler.com/${slug}`}
