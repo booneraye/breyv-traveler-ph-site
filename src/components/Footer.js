@@ -5,7 +5,7 @@ const Footer = () => (
 
     <footer class="footer-distributed">
         <div class="footer-left">
-            <img src='https://breyvtraveler.com/logos/brave_traveler_ph.png' class='logos'/>
+            <img src='https://breyvtraveler.com/logos/brave_traveler_ph.png' class='logos'/> <br/>
             <p class="footer-links">
 		        <a href="https://breyvtraveler.com/">Home</a>  · <a href="https://breyvtraveler.com/about">About</a> · <a href="https://breyvtraveler.com/privacy-policy">Privacy Policy</a>  · <a href="https://breyvtraveler.com/contact/">Contact</a>
 		    </p>
