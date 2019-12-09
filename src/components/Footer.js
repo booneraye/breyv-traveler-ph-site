@@ -8,12 +8,9 @@ const Footer = () => (
             <h3>Brave Traveler PH</h3>
             <p class="footer-links">
 		        <a href="https://breyvtraveler.com/">Home</a>
-                 ·
-		        <a href="https://breyvtraveler.com/about">About</a>
-                 ·
-		        <a href="https://breyvtraveler.com/">Faq</a>
-                 · 
-		        <a href="https://breyvtraveler.com/contact/">Contact</a>
+                 · <a href="https://breyvtraveler.com/about">About</a>
+                 · <a href="https://breyvtraveler.com/privacy-policy">Privacy Policy</a>
+                 · <a href="https://breyvtraveler.com/contact/">Contact</a>
 		    </p>
 
 		    <p class="footer-company-name">brave traveler ph &copy; 2019</p>
