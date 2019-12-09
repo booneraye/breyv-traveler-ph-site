@@ -7,9 +7,12 @@ const Footer = () => (
         <div class="footer-left">
             <h3>Brave Traveler PH</h3>
             <p class="footer-links">
-		        <a href="https://breyvtraveler.com/">Home</a> · 
-		        <a href="https://breyvtraveler.com/about">About</a> ·
-		        <a href="https://breyvtraveler.com/">Faq</a> ·
+		        <a href="https://breyvtraveler.com/">Home</a>
+                 ·
+		        <a href="https://breyvtraveler.com/about">About</a>
+                 ·
+		        <a href="https://breyvtraveler.com/">Faq</a>
+                 · 
 		        <a href="https://breyvtraveler.com/contact/">Contact</a>
 		    </p>
 
