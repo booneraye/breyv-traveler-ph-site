@@ -1,7 +1,10 @@
-
 footer{
 	display: flex;
     flex-flow: row wrap;
+}
+.logos{
+    float: left;
+    width: 250px;
 }
 .footer-distributed{
 	background-color: #292c2f;
@@ -10,9 +13,7 @@ footer{
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
-
-	padding: 55px 50px;
-	margin-top: 80px;
+	padding: 35px 30px;
 }
 
 .footer-distributed .footer-left,
@@ -154,7 +155,7 @@ footer{
 		display: block;
 		width: 100%;
 		margin-bottom: 40px;
-		text-align: center;
+		text-align: left;
 	}
 
 	.footer-distributed .footer-center i{
