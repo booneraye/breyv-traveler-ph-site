@@ -1,4 +1,5 @@
 import React from 'react'
+import config from '../utils/siteConfig'
 import header from '../styles/header.css'
 
 const Menu = () => {
@@ -6,13 +7,13 @@ const Menu = () => {
   return (
 
     <header class="header">
-        <a href="https://breyvtraveler.com/" class="logo"><img src='https://breyvtraveler.com/logos/brave_black.png' class='logos'/></a>
+        <a href={config.siteUrl} class="logo"><img src={`${config.siteUrl}/logos/brave_black.png`} class='logos'/></a>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
-            <li><a href="https://breyvtraveler.com/about/">About</a></li>
-            <li><a href="https://breyvtraveler.com/biyaheroes" target='_blank'>Buy Tickets</a></li>
-            <li><a href="https://breyvtraveler.com/contact/">Contact</a></li>
+            <li><a href={`${config.siteUrl}/about/`}>About</a></li>
+            <li><a href={`${config.siteUrl}/biyaheroes`} target='_blank'>Buy Tickets</a></li>
+            <li><a href={`${config.siteUrl}/contact/`}>Contact</a></li>
         </ul>
     </header>
 

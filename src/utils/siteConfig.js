@@ -10,6 +10,8 @@ module.exports = {
   author: 'Boone Raye Flores', // Author for RSS author segment and SEO schema
   authorUrl: 'https://breyvtraveler.com/about/', // URL used for author and publisher schema, can be a social profile or other personal site
   userTwitter: '@booneraye', // Change for Twitter Cards
+  userFacebook: 'https://facebook.com/bravetravelerph',
+  userInstagram: 'https://instagram.com/bravetravelerph',
   shortTitle: 'BRAVE TRAVELER PH', // Used for App manifest e.g. Mobile Home Screen
   shareImage: '/logos/46524267_2102808913091549_3585510914280914944_o.jpg', // Open Graph Default Share Image. 1200x1200 is recommended
   shareImageWidth: 900, // Change to the width of your default share image
