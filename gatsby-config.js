@@ -16,7 +16,7 @@ try {
     },
   }
 } finally {
-  const { spaceId, accessToken } = contentfulConfig.development
+  const { spaceId, accessToken } = contentfulConfig.production
   if (!spaceId || !accessToken) {
     throw new Error('Contentful space ID and access token need to be provided.')
   }
