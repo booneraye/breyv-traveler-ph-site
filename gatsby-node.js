@@ -15,6 +15,7 @@ exports.createPages = ({ graphql, actions }) => {
             node {
               slug
               publishDate
+              author
             }
           }
         }

@@ -70,6 +70,7 @@ export const query = graphql`
     contentfulPost(slug: { eq: $slug }) {
       title
       slug
+      author
       metaDescription {
         internal {
           content
