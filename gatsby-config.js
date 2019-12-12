@@ -5,11 +5,6 @@ try {
   contentfulConfig = require('./.contentful')
 } catch (e) {
   contentfulConfig = {
-    development: {
-        host: 'cdn.contentful.com',
-        spaceId: '2d2svs9t2fyn',
-        accessToken: 'SzmmfnQY9wwS6cAIZdPMywp9CJVfmrvYFSdzN94poBo',
-    },
     production: {
       spaceId: process.env.SPACE_ID,
       accessToken: process.env.ACCESS_TOKEN,
