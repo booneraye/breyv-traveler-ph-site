@@ -19,6 +19,7 @@ const PostTemplate = ({ data, pageContext }) => {
   const {
     title,
     slug,
+    author,
     heroImage,
     body,
     publishDate,
@@ -43,6 +44,7 @@ const PostTemplate = ({ data, pageContext }) => {
         <PostDetails
           date={publishDate}
           timeToRead={body.childMarkdownRemark.timeToRead}
+          writtenBy={author}
         />
         <ShareButton
           shareLink={`https://breyvtraveler.com/${slug}`}
