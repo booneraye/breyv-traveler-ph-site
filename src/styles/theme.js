@@ -7,7 +7,7 @@ const theme = {
   },
   sizes: {
     maxWidth: '1050px',
-    maxWidthCentered: '650px',
+    maxWidthCentered: '100%',
   },
   responsive: {
     small: '35em',

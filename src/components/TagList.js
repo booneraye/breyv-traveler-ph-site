@@ -3,9 +3,11 @@ import styled from 'styled-components'
 import { Link } from 'gatsby'
 
 const List = styled.ul`
-  width: 100%;
-  margin: 0 auto 1em auto;
-  max-width: ${props => props.theme.sizes.maxWidthCentered};
+    margin: 0 auto;
+    max-width: 80%;
+    @media (max-width: 600px)  {
+        max-width: 100%;
+    }
 `
 
 const Tag = styled.li`

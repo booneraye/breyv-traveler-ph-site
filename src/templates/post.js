@@ -9,7 +9,6 @@ import PageBody from '../components/PageBody'
 import TagList from '../components/TagList'
 import PostLinks from '../components/PostLinks'
 import PostDetails from '../components/PostDetails'
-import GoogleAdsDisplay from '../components/GoogleAdsDisplay'
 import SEO from '../components/SEO'
 import styleAds from '../styles/styles.css'
 import ShareButton from '../components/ShareButton'
@@ -31,36 +30,31 @@ const PostTemplate = ({ data, pageContext }) => {
   const next = pageContext.next
 
   return (
-    <Layout>
-      <Helmet>
-        <title>{`${title} - ${config.siteTitle}`}</title>
-      </Helmet>
-      <SEO pagePath={slug} postNode={postNode} postSEO />
+     <Layout>
+        <Helmet>
+            <title>{`${title} - ${config.siteTitle}`}</title>
+        </Helmet>
 
-      <Hero title={title} image={heroImage} height={'50vh'} />
+        <SEO pagePath={slug} postNode={postNode} postSEO />
 
-      <Container>
-        {tags && <TagList tags={tags} />}
-        <PostDetails
-          date={publishDate}
-          timeToRead={body.childMarkdownRemark.timeToRead}
-          writtenBy={author}
-        />
-        <ShareButton
-          shareLink={`https://breyvtraveler.com/${slug}`}
-        />
-        <div id='ads_container'>
-            <GoogleAdsDisplay />
-        </div>
+        <Hero title={title} image={heroImage} height={'50vh'} />
 
-        <PageBody body={body} />
+        <Container>
+            {tags && <TagList tags={tags} />}
+            <PostDetails
+                date={publishDate}
+                timeToRead={body.childMarkdownRemark.timeToRead}
+                writtenBy={author}
+            />
+            <ShareButton
+                shareLink={`${config.siteUrl}/${slug}`}
+            />
 
-        <div id='ads_container'>
-            <GoogleAdsDisplay />
-        </div>
-      </Container>
+            <PageBody body={body} />
 
-      <PostLinks previous={previous} next={next} />
+            <PostLinks previous={previous} next={next} />
+        </Container>
+
     </Layout>
   )
 }

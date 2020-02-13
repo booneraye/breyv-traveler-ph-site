@@ -11,9 +11,10 @@ const Menu = () => {
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
+            <li><a href={`${config.siteUrl}`}>Home</a></li>
             <li><a href={`${config.siteUrl}/about/`}>About</a></li>
             <li><a href={`${config.siteUrl}/biyaheroes`} target='_blank'>Buy Tickets</a></li>
-            <li><a href={`${config.siteUrl}/contact/`}>Contact</a></li>
+            <li><a href={`${config.siteUrl}/get-in-touch-with-us/`}>Contact</a></li>
         </ul>
     </header>
 

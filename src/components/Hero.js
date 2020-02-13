@@ -10,9 +10,8 @@ const BgImg = styled(Img)`
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
   z-index: -1;
-  min-height: 300px;
+  min-height: 500px;
   height: auto;
   @media (min-width: ${props => props.theme.responsive.small}) {
     height: ${props => props.height || 'auto'};
@@ -40,14 +39,16 @@ const Title = styled.h1`
   text-transform: capitalize;
   font-weight: 600;
   position: absolute;
-  width: 100%;
-  max-width: ${props => props.theme.sizes.maxWidthCentered};
+  width: 80%;
   padding: 0 1rem;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
+  @media (max-width: 600px)  {
+      font-size: 2em;
+  }
 `
 
 const Hero = props => (

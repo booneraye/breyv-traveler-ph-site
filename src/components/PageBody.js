@@ -4,8 +4,11 @@ require('prismjs/themes/prism.css')
 
 
 const Body = styled.div`
+  width: 80%;
   margin: 0 auto;
-  max-width: ${props => props.theme.sizes.maxWidthCentered};
+  @media (max-width: 600px)  {
+      width: 100%;
+  }
 
   h1,
   h2,

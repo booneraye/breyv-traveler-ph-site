@@ -2,11 +2,14 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-  margin: 0 auto 2em;
-  max-width: ${props => props.theme.sizes.maxWidthCentered};
-  span {
-    margin: 0 0.5rem;
-  }
+    margin: 0 auto;
+    max-width: 80%;
+    span {
+        margin: 0 0.5rem;
+    }
+    @media (max-width: 600px)  {
+        max-width: 100%;
+    }
 `
 
 const Date = styled.p`
